@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node ./server/server.ts"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "homepage": "https://github.com/savalazic/full-stack-typescript#readme",
   "dependencies": {
     "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.2",
+    "ts-node": "^8.3.0"
   }
 }
