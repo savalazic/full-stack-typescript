@@ -8,12 +8,8 @@
     "noEmitOnError": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "lib": [
-      "es6"
-    ],
+    "lib": ["es6"],
     "skipLibCheck": true
   },
-  "exclude": [
-    "client/node_modules"
-  ]
+  "exclude": ["client/node_modules"]
 }
