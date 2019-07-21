@@ -8,6 +8,7 @@ import {
 } from 'sequelize';
 
 export interface ILessonModel extends Model {
+  id: number;
   url: string;
   description: string;
   duration: number;

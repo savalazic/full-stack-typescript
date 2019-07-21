@@ -9,6 +9,7 @@ import {
 } from 'sequelize';
 
 export interface ICourseModel extends Model {
+  id: number;
   description: string;
   url: string;
   longDescription: string;
