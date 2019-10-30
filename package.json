@@ -24,7 +24,7 @@
     "express": "^4.17.1",
     "human-readable-ids": "^1.0.4",
     "pg": "^7.11.0",
-    "sequelize": "^5.10.0",
+    "sequelize": "^5.15.1",
     "typescript": "^3.5.3"
   },
   "devDependencies": {
